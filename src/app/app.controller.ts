@@ -4,6 +4,13 @@ import { Response, Request, query } from 'express';
 import { ValidateuserPipe } from './pipes/validateuser/validateuser.pipe';
 import { AuthGuard } from './guards/auth/auth.guard';
 
+
+
+// COMANDOS DE NEST 
+// para crear todo un recurso de nests usamos el comando nest g resourse 'nombre del recurso':
+// esto te crea una carpeta con todos sus archivos e importaciones.
+
+
 @Controller()
 export class AppController {
     @Get('/')
