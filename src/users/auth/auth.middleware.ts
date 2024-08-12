@@ -5,6 +5,7 @@ import { Request, Response } from 'express';
 
 // LOS MIDDLEWARES SON FUNCIONES DE NEST PARA PODER VALIDAR LA INFO QUE LLEGA. SE IMPORTA EN EL MODULE.
 // SON SIMILARES A LOS GUARDS.
+// A diferecion de los guards esto esta a nivel de http:  se procesa como una peticion se ejecuta y responde
 
 
 export class AuthMiddleware implements NestMiddleware {
